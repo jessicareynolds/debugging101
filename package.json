@@ -4,7 +4,8 @@
   "description": "In these exercises we will start to understand reading error messages in the terminal.",
   "main": "index.js",
   "scripts": {
-    "exercise01": "node exercise01.js"
+    "exercise01": "node ./javascript/exercise01.js",
+    "exercise02": "node ./javascript/exercise02.js"
   },
   "repository": {
     "type": "git",
