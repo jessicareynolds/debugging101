@@ -1,0 +1,20 @@
+{
+  "name": "debugging101",
+  "version": "1.0.0",
+  "description": "In these exercises we will start to understand reading error messages in the terminal.",
+  "main": "index.js",
+  "scripts": {
+    "exercise01": "node exercise01.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orbitalbitmap/debugging101.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orbitalbitmap/debugging101/issues"
+  },
+  "homepage": "https://github.com/orbitalbitmap/debugging101#readme"
+}
