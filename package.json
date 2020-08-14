@@ -4,6 +4,7 @@
   "description": "In these exercises we will start to understand reading error messages in the terminal.",
   "main": "index.js",
   "scripts": {
+    "dev": "./node_modules/.bin/nodemon ./index.js",
     "exercise01": "node ./javascript/exercise01.js",
     "exercise02": "node ./javascript/exercise02.js"
   },
@@ -17,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/orbitalbitmap/debugging101/issues"
   },
-  "homepage": "https://github.com/orbitalbitmap/debugging101#readme"
+  "homepage": "https://github.com/orbitalbitmap/debugging101#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
