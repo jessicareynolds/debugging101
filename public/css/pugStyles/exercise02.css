@@ -1,0 +1,72 @@
+body {
+  background-color: #444;
+}
+
+h1, h3 {
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 5% auto;
+}
+
+table, td, thead, th {
+  border: 3px solid mistyrose;
+  text-align: center;
+}
+
+thead {
+  background-color: purple;
+}
+
+.Arryn, .sigil-Arryn {
+  color: skyblue;
+  background-color: white;
+}
+
+.Baratheon, .sigil-Baratheon {
+  color: black;
+  background-color: gold;
+}
+
+.Greyjoy, .sigil-Greyjoy {
+  color: gold;
+  background-color: black;
+}
+
+.Lannister, .sigil-Lannister {
+  color: gold;
+  background-color: crimson;
+}
+
+.Martell, .sigil-Martell {
+  color: red;
+  background-color: orange;
+}
+
+.Stark, .sigil-Stark {
+  color: gray;
+  background-color: whitesmoke;
+}
+
+.Targaryen, .sigil-Targaryen {
+  color: red;
+  background-color: black;
+}
+
+.Tully, .sigil-Tully {
+  color: silver;
+  background: repeating-linear-gradient(
+      45deg,
+      red 0px,
+      red 21px,
+      blue 21px,
+      blue 44px
+    );
+}
+
+.Tyrell, .sigil-Tyrell {
+  color: gold;
+  background-color: green;
+}

@@ -1,10 +1,19 @@
 html
+  head
+    title Exercise #2
+    link(rel="stylesheet" href="/css/pugStyles/exercise02")
+  
   body
-    table
-      tr
-      th House Name
-      th House sigil
+    table.table
+      thead
+        th 
+        h1 House Name
+        th
+        h1 House sigil
+    tbody
     for house in greatHouses
       tr
-      td=house.name
-      td=house.sigil
+        td(class=`${house.name}`)
+        h3=house.name
+        td(class=`sigil-${house.name}`)
+        h3=house.sigil

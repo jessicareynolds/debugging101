@@ -1,0 +1,25 @@
+div {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+li {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+ul {
+  list-style-position: inside;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.jedi {
+  background-color: white;
+}
+.sith {
+  background-color: black;
+  color: red;
+  padding: 0 20px 30px 10px;
+}

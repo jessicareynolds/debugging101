@@ -4,6 +4,7 @@ const { greatHouses } = require('./public/data/pugExercise02')
 const app = expres()
 
 app.set('view engine', 'pug')
+app.use(express.static('public'))
 
 app.get('/exercise01', (request, response) => {
   return response.render('exercise01')
