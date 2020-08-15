@@ -11,5 +11,7 @@ IE: If you are in thee file exercise01 the run command is "npm run exercise01"
 
 For each html file, you can run them in your browser by right clicking the file and clicking "Run in default browser"
 
+For each pug template file, you can run them in your browser by running your server with the "npm run dev" command and going to the local url for each file.
+
 ### Final Note
 Not every file will have a single error, some might have multiple errors.
